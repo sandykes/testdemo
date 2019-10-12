@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="E2EPractice.E2EProject.Listener"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="E2EPractice.E2EProject.ValidateTitle"/>
+      </classes>
+      </test>
+      <test name="Test1">
+          <classes>
+      
+      <class name="E2EPractice.E2EProject.ValidateContacts"/>
+      </classes>
+      </test>
+            <test name="Test2">
+          <classes>
+      
+      <class name="E2EPractice.E2EProject.HomePage"/>
+      </classes>
+      </test>
+            <test name="Test3">
+          <classes>
+      
+      <class name="E2EPractice.E2EProject.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51892" started-at="2019-04-03T09:27:56Z" finished-at="2019-04-03T09:28:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8318" started-at="2019-04-03T09:27:56Z" finished-at="2019-04-03T09:28:05Z">
+      <class name="E2EPractice.E2EProject.ValidateTitle">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:E2EPractice.E2EProject.ValidateTitle@460d0a57]" name="initilize" is-config="true" duration-ms="6995" started-at="2019-04-03T14:57:56Z" finished-at="2019-04-03T14:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="FAIL" signature="HPNavigation()[pri:0, instance:E2EPractice.E2EProject.ValidateTitle@460d0a57]" name="HPNavigation" duration-ms="117" started-at="2019-04-03T14:58:03Z" finished-at="2019-04-03T14:58:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES23] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES23] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at E2EPractice.E2EProject.ValidateTitle.HPNavigation(ValidateTitle.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EPractice.E2EProject.ValidateTitle@460d0a57]" name="tearDown" is-config="true" duration-ms="71" started-at="2019-04-03T14:58:04Z" finished-at="2019-04-03T14:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EPractice.E2EProject.ValidateTitle -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="8295" started-at="2019-04-03T09:28:05Z" finished-at="2019-04-03T09:28:13Z">
+      <class name="E2EPractice.E2EProject.ValidateContacts">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:E2EPractice.E2EProject.ValidateContacts@5ae50ce6]" name="initilize" is-config="true" duration-ms="8149" started-at="2019-04-03T14:58:05Z" finished-at="2019-04-03T14:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="VerifyContacts()[pri:0, instance:E2EPractice.E2EProject.ValidateContacts@5ae50ce6]" name="VerifyContacts" duration-ms="74" started-at="2019-04-03T14:58:13Z" finished-at="2019-04-03T14:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EPractice.E2EProject.ValidateContacts@5ae50ce6]" name="tearDown" is-config="true" duration-ms="69" started-at="2019-04-03T14:58:13Z" finished-at="2019-04-03T14:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EPractice.E2EProject.ValidateContacts -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="35234" started-at="2019-04-03T09:28:13Z" finished-at="2019-04-03T09:28:48Z">
+      <class name="E2EPractice.E2EProject.HomePage">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:E2EPractice.E2EProject.HomePage@61230f6a]" name="initilize" is-config="true" duration-ms="3868" started-at="2019-04-03T14:58:13Z" finished-at="2019-04-03T14:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="HPNavigation()[pri:0, instance:E2EPractice.E2EProject.HomePage@61230f6a]" name="HPNavigation" duration-ms="10503" started-at="2019-04-03T14:58:17Z" finished-at="2019-04-03T14:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPNavigation -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:E2EPractice.E2EProject.HomePage@61230f6a]" name="Login" duration-ms="6305" started-at="2019-04-03T14:58:27Z" data-provider="getData" finished-at="2019-04-03T14:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@Test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:E2EPractice.E2EProject.HomePage@61230f6a]" name="Login" duration-ms="6374" started-at="2019-04-03T14:58:34Z" data-provider="getData" finished-at="2019-04-03T14:58:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:E2EPractice.E2EProject.HomePage@61230f6a]" name="Login" duration-ms="8085" started-at="2019-04-03T14:58:40Z" data-provider="getData" finished-at="2019-04-03T14:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ray@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test897]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EPractice.E2EProject.HomePage@61230f6a]" name="tearDown" is-config="true" duration-ms="90" started-at="2019-04-03T14:58:48Z" finished-at="2019-04-03T14:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EPractice.E2EProject.HomePage -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="1" started-at="2019-04-03T09:28:48Z" finished-at="2019-04-03T09:28:48Z">
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

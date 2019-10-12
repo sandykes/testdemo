@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="E2EPractice.E2EProject.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="E2EPractice.E2EProject.ValidateContacts">
+        <methods>
+          <include name="initilize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- E2EPractice.E2EProject.ValidateContacts -->
+      <class name="E2EPractice.E2EProject.HomePage">
+        <methods>
+          <include name="initilize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- E2EPractice.E2EProject.HomePage -->
+      <class name="E2EPractice.E2EProject.ValidateTitle">
+        <methods>
+          <include name="initilize"/>
+          <include name="tearDown"/>
+          <include name="HPNavigation"/>
+        </methods>
+      </class> <!-- E2EPractice.E2EProject.ValidateTitle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
